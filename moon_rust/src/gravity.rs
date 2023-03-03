@@ -17,6 +17,7 @@ pub fn gravitational_force(mass1: f64, mass2: f64, distance: f64) -> f64
     return top / bottom;
 }
 
+
 #[cfg(test)]
 mod test {
     use super::*;
@@ -30,4 +31,3 @@ mod test {
     }
 
 }
-
